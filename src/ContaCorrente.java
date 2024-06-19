@@ -10,5 +10,11 @@ public class ContaCorrente extends Conta {
 		System.out.println("=== Extrato Conta Corrente ===");
 		super.imprimirInfosComuns();
 	}
+
+	@Override
+	public void investir(double valor, IConta contaInvestimento) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
